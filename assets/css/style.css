@@ -1,26 +1,26 @@
-* {
+* {   /* an all element selector that sets everything to 0 so it looks the same on different browsers */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body {   /* Gives a background color to the main body of content */
     background-color: #d9dcd6;
 }
 
-.header {
+.header {  /*This gives the header padding, font and backup fonts, text color, and background color */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+.header h1 {  /* The title of the company. An inline-block doesnt start on a new line */
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 .seo { /* Shows seo with a differnt color than the rest of the word */
     color: #d9dcd6;
 }
 
